@@ -1,0 +1,184 @@
+
+
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Poppins';
+}
+.container{
+    width: 100%;
+    background-color: #e7e9f1;
+    justify-content: center;
+
+    
+    
+}
+.container img{
+    width: 100%;
+}
+.imgdiv{
+    height: 100%;
+    width: 100%;
+    
+    
+}
+
+.container h2{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    color: rgb(156, 94, 7);
+}
+
+h2{
+    margin-top: 15px;
+    font-size: x-large;
+}
+p{
+    font-size: small;
+}
+ 
+.div_flex_container1{
+    display: grid;
+    background-color: #e7e9f1;
+    flex-wrap: wrap;
+   
+    grid-template-columns: 50% 50%;
+    
+
+}
+.div_space{
+    
+    max-width: 100%;
+    max-height:100% ;
+    margin: 15px;
+    padding: 2px;
+}
+.text{
+    
+    font-size: larger;
+    color: rgb(9, 87, 80);
+}
+.textspace{
+    margin-top: 20px!important;
+    padding: 0.01em 16px;
+}
+.textspace h2{
+    font-size: x-large;
+}
+.textspace p{
+    color:rgb(82, 54, 109);
+    
+}
+.Subscribe{
+    background-color: black;
+    color: white;
+    padding: 10px 15px 10px;
+    display:grid;
+    margin: 15px;
+    padding-bottom: 20px;
+    
+}
+
+.section{
+    margin-left: 8%;
+    margin-right: 8%;
+ 
+
+    
+}
+body{
+    background-color: #e7e9f1;
+}
+.Subscribe p{
+    font-size: larger;
+    margin-bottom: 5px;
+   
+}.Subscribe input{
+    width: 40%;
+    padding: 5px;
+    font-size: medium;
+    font-weight: 500;
+}
+.Subscribe button{
+    width: 25%;
+    height: 40px;
+    margin-left: 20px;
+    background-color: red;
+    color: white;
+    border: none;
+}
+.sub-email{
+    display: flex;
+    align-items: center;
+
+}
+#sec{
+    padding: 15px;
+    
+}
+.section p{
+    padding: 10px 0px;
+}
+i img{
+    height: 25px;
+}
+i p{
+    color: black;
+    font-size: medium;
+    font-style: normal;
+    margin-left: 10px;
+}
+i{
+    display: inline-flex;
+    align-items: center;
+
+    
+}
+#button:hover{
+    background-color: #eb4e27;
+}
+
+
+@media screen and (max-width: 480px) {
+    
+     
+    .div_flex_container1{
+        display: grid;
+        background-color: #e7e9f1;
+        grid-template-columns: 100%;
+    
+
+    }
+    .container p{
+        font-size: x-small;
+    }
+    .Subscribe input{
+        width: 60%;
+        padding: 2px;
+        font-size:small;
+        font-weight: 300;
+    }
+    .Subscribe button{
+        width: 40%;
+        height: 25px;
+        margin-top: 5px;
+        background-color: red;
+        color: white;
+        border: none;
+        font-size: small;
+    }
+    .text{
+    
+        font-size: small;
+    }
+    .container h2{
+        text-align: center;
+        font-size: medium;
+    }
+    .Subscribe button{
+        font-size: smaller;
+    }
+
+
+}
